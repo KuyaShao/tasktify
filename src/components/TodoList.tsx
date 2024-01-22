@@ -7,10 +7,9 @@ interface props {
   todos: Array<Todo>;
   setTodos: React.Dispatch<React.SetStateAction<Array<Todo>>>;
   setCompletedTodos: React.Dispatch<React.SetStateAction<Array<Todo>>>;
-  CompletedTodos: Array<Todo>;
 }
 
-const TodoList: React.FC<props> = ({
+const TodoList: React.FC<> = ({
   todos,
   setTodos,
   CompletedTodos,
